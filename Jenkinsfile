@@ -27,8 +27,7 @@ pipeline {
     stage('Print3') {
       steps {
         echo "My Office ${Company}"
-        
-        echo "My Name"
+        echo 'My Name'
       }
     }
 
@@ -36,6 +35,5 @@ pipeline {
   environment {
     Company = 'Juno'
     Location = 'Hyd'
-    
   }
 }
