@@ -9,7 +9,7 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('Print1') {
           steps {
             echo 'Building'
           }
@@ -18,7 +18,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Print2') {
       steps {
         echo 'done'
       }
