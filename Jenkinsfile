@@ -27,7 +27,7 @@ pipeline {
     stage('Print3') {
       steps {
         echo "My Office ${Company}"
-        echo "My path ${Path}"
+        
         echo "My Name"
       }
     }
@@ -36,6 +36,6 @@ pipeline {
   environment {
     Company = 'Juno'
     Location = 'Hyd'
-    Path = `pwd`
+    
   }
 }
