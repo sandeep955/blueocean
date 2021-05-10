@@ -26,7 +26,7 @@ pipeline {
 
     stage('Print3') {
       steps {
-        echo 'My Company ${Company}'
+        echo "My Company ${Company}"
       }
     }
 
