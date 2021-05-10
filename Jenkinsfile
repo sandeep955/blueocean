@@ -24,6 +24,12 @@ pipeline {
       }
     }
 
+    stage('Print3') {
+      steps {
+        echo 'My Company ${Company}'
+      }
+    }
+
   }
   environment {
     Company = 'Juno'
