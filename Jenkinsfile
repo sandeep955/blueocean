@@ -28,6 +28,7 @@ pipeline {
       steps {
         echo "My Office ${Company}"
         echo "My path ${Path}"
+        echo "My Name"
       }
     }
 
